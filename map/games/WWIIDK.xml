@@ -1,703 +1,721 @@
 <?xml version="1.0" ?>
-
 <!DOCTYPE game SYSTEM "game.dtd">
-
 <game>
-        <info name="WWIIDK" version="1.0"/>
-        
-        <loader javaClass="games.strategy.triplea.TripleA"/>
-		
-		<triplea minimumVersion="1.9"/>
-
-        <map>
-                <!-- Territory Definitions -->
-				<territory name="Afghanistan"/>
-				<territory name="Alaska"/>
-				<territory name="Aleutians"/>
-				<territory name="Algeria"/>
-				<territory name="Amur"/>
-				<territory name="Anglo-Egyptian Sudan"/>
-				<territory name="Angola"/>
-				<territory name="Archangel"/>
-				<territory name="Argentina"/>
-				<territory name="Balkans"/>
-				<territory name="Baltic States"/>
-				<territory name="Belarus"/>
-				<territory name="Belgian Congo"/>
-				<territory name="Borneo"/>
-				<territory name="Brazil"/>
-				<territory name="Buriatia"/>
-				<territory name="Burma"/>
-				<territory name="Caroline Islands"/>
-				<territory name="Caucasus"/>
-				<territory name="Central America"/>
-				<territory name="Chinghai"/>
-				<territory name="Crete"/>
-				<territory name="Croatia"/>
-				<territory name="Denmark"/>
-				<territory name="East Indies"/>
-				<territory name="Eastern Australia"/>
-				<territory name="Eastern Canada"/>
-				<territory name="Eastern Ukraine"/>
-				<territory name="Eastern United States"/>
-				<territory name="Egypt"/>
-				<territory name="Evenki National Okrug"/>
-				<territory name="Figi"/>
-				<territory name="Finland"/>
-				<territory name="Formosa"/>
-				<territory name="France"/>
-				<territory name="French Equatorial Africa"/>
-				<territory name="French Indo-China"/>
-				<territory name="French Madagascar"/>
-				<territory name="French West Africa"/>
-				<territory name="Fukien"/>
-				<territory name="Germany"/>
-				<territory name="Gibraltar"/>
-				<territory name="Gold Coast"/>
-				<territory name="Greece"/>
-				<territory name="Greenland"/>
-				<territory name="Hawaiian Islands"/>
-				<territory name="Himalayas"/>
-				<territory name="Holland Belgium"/>
-				<territory name="Hupeh"/>
-				<territory name="Iceland"/>
-				<territory name="India"/>
-				<territory name="Ireland"/>
-				<territory name="Italian East Africa"/>
-				<territory name="Italy"/>
-				<territory name="Iwo Jima"/>
-				<territory name="Japan"/>
-				<territory name="Kansu"/>
-				<territory name="Karelia SSR"/>
-				<territory name="Kazakh SSR"/>
-				<territory name="Korea"/>
-				<territory name="Kwangtung"/>
-				<territory name="Libya"/>
-				<territory name="Line Islands"/>
-				<territory name="Malta"/>
-				<territory name="Manchuria"/>
-				<territory name="Marshall Islands"/>
-				<territory name="Mexico"/>
-				<territory name="Midway"/>
-				<territory name="Mongolia"/>
-				<territory name="Morocco"/>
-				<territory name="Mozanbique"/>
-				<territory name="Nenetsia"/>
-				<territory name="New Guinea"/>
-				<territory name="New Zealand"/>
-				<territory name="Ningxia"/>
-				<territory name="Northern USA"/>
-				<territory name="Norway"/>
-				<territory name="Novosibirsk"/>
-				<territory name="Okinawa"/>
-				<territory name="Persia"/>
-				<territory name="Peru"/>
-				<territory name="Phillipines"/>
-				<territory name="Poland"/>
-				<territory name="Portugal"/>
-				<territory name="Pripyat Marshes"/>
-				<territory name="Rhodesia"/>
-				<territory name="Russia"/>
-				<territory name="Sahara"/>
-				<territory name="Sakha"/>
-				<territory name="Samoa"/>
-				<territory name="Sardinia Sicily"/>
-				<territory name="Saudi Arabia"/>
-				<territory name="Shensi"/>
-				<territory name="Siberia"/>
-				<territory name="Sikang"/>
-				<territory name="Smolensk"/>
-				<territory name="Solomon Islands"/>
-				<territory name="Southern Italy"/>
-				<territory name="Southern USA"/>
-				<territory name="Soviet Far East"/>
-				<territory name="Spain"/>
-				<territory name="Suiyuan"/>
-				<territory name="Sweden"/>
-				<territory name="Switzerland"/>
-				<territory name="Tambov"/>
-				<territory name="Tibet"/>
-				<territory name="Trans Jordan"/>
-				<territory name="Tsinghai"/>
-				<territory name="Tunisia"/>
-				<territory name="Turkey"/>
-				<territory name="Ukraine"/>
-				<territory name="Union of South Africa"/>
-				<territory name="United Kingdom"/>
-				<territory name="Urals"/>
-				<territory name="Venezuala"/>
-				<territory name="Vologda"/>
-				<territory name="W. Canada"/>
-				<territory name="Wake Island"/>
-				<territory name="West Indies"/>
-				<territory name="Western Austraia"/>
-				<territory name="Western Russia"/>
-				<territory name="Western USA"/>
-				<territory name="Yajut SSR"/>
-				<territory name="Yenisey"/>
-				<territory name="Yunnan"/>
-				<territory name="off map"/>
-				<territory name="sea zone 1" water="true"/>
-				<territory name="sea zone 2" water="true"/>
-				<territory name="sea zone 3" water="true"/>
-				<territory name="sea zone 4" water="true"/>
-				<territory name="sea zone 5" water="true"/>
-				<territory name="sea zone 6" water="true"/>
-				<territory name="sea zone 7" water="true"/>
-				<territory name="sea zone 8" water="true"/>
-				<territory name="sea zone 9" water="true"/>
-				<territory name="sea zone 10" water="true"/>
-				<territory name="sea zone 11" water="true"/>
-				<territory name="sea zone 12" water="true"/>
-				<territory name="sea zone 13" water="true"/>
-				<territory name="sea zone 14" water="true"/>
-				<territory name="sea zone 15" water="true"/>
-				<territory name="sea zone 16" water="true"/>
-				<territory name="sea zone 17" water="true"/>
-				<territory name="sea zone 18" water="true"/>
-				<territory name="sea zone 19" water="true"/>
-				<territory name="sea zone 20" water="true"/>
-				<territory name="sea zone 21" water="true"/>
-				<territory name="sea zone 22" water="true"/>
-				<territory name="sea zone 23" water="true"/>
-				<territory name="sea zone 24" water="true"/>
-				<territory name="sea zone 25" water="true"/>
-				<territory name="sea zone 26" water="true"/>
-				<territory name="sea zone 27" water="true"/>
-				<territory name="sea zone 28" water="true"/>
-				<territory name="sea zone 29" water="true"/>
-				<territory name="sea zone 30" water="true"/>
-				<territory name="sea zone 31" water="true"/>
-				<territory name="sea zone 32" water="true"/>
-				<territory name="sea zone 33" water="true"/>
-				<territory name="sea zone 34" water="true"/>
-				<territory name="sea zone 35" water="true"/>
-				<territory name="sea zone 36" water="true"/>
-				<territory name="sea zone 37" water="true"/>
-				<territory name="sea zone 38" water="true"/>
-				<territory name="sea zone 39" water="true"/>
-				<territory name="sea zone 40" water="true"/>
-				<territory name="sea zone 41" water="true"/>
-				<territory name="sea zone 42" water="true"/>
-				<territory name="sea zone 43" water="true"/>
-				<territory name="sea zone 44" water="true"/>
-				<territory name="sea zone 45" water="true"/>
-				<territory name="sea zone 46" water="true"/>
-				<territory name="sea zone 47" water="true"/>
-				<territory name="sea zone 48" water="true"/>
-				<territory name="sea zone 49" water="true"/>
-				<territory name="sea zone 50" water="true"/>
-				<territory name="sea zone 51" water="true"/>
-				<territory name="sea zone 52" water="true"/>
-				<territory name="sea zone 53" water="true"/>
-				<territory name="sea zone 54" water="true"/>
-				<territory name="sea zone 55" water="true"/>
-				<territory name="sea zone 56" water="true"/>
-				<territory name="sea zone 57" water="true"/>
-				<territory name="sea zone 58" water="true"/>
-				<territory name="sea zone 59" water="true"/>
-				<territory name="sea zone 60" water="true"/>
-				<territory name="sea zone 61" water="true"/>
-				<territory name="sea zone 62" water="true"/>
-				<territory name="sea zone 63" water="true"/>
-				<territory name="sea zone 64" water="true"/>
-				<territory name="sea zone 65" water="true"/>
-				<territory name="sea zone Germany STF" water="true"/>
-				<territory name="sea zone Italy STF" water="true"/>
-				<territory name="sea zone Japan STF" water="true"/>
-				<territory name="sea zone Russia STF" water="true"/>
-				<territory name="sea zone UK STF" water="true"/>
-				<territory name="sea zone USA STF" water="true"/>
-
-				<!-- Territory Connections -->
-				<connection t1="Afghanistan" t2="Himalayas"/>
-				<connection t1="Afghanistan" t2="India"/>
-				<connection t1="Afghanistan" t2="Kazakh SSR"/>
-				<connection t1="Afghanistan" t2="Persia"/>
-				<connection t1="Alaska" t2="W. Canada"/>
-				<connection t1="Alaska" t2="sea zone 63"/>
-				<connection t1="Alaska" t2="sea zone 64"/>
-				<connection t1="Aleutians" t2="sea zone 63"/>
-				<connection t1="Algeria" t2="Morocco"/>
-				<connection t1="Algeria" t2="Sahara"/>
-				<connection t1="Algeria" t2="Tunisia"/>
-				<connection t1="Algeria" t2="sea zone 14"/>
-				<connection t1="Amur" t2="Buriatia"/>
-				<connection t1="Amur" t2="Korea"/>
-				<connection t1="Amur" t2="Manchuria"/>
-				<connection t1="Amur" t2="Sakha"/>
-				<connection t1="Amur" t2="Siberia"/>
-				<connection t1="Amur" t2="sea zone 60"/>
-				<connection t1="Amur" t2="sea zone 62"/>
-				<connection t1="Anglo-Egyptian Sudan" t2="Belgian Congo"/>
-				<connection t1="Anglo-Egyptian Sudan" t2="Egypt"/>
-				<connection t1="Anglo-Egyptian Sudan" t2="French Equatorial Africa"/>
-				<connection t1="Anglo-Egyptian Sudan" t2="Italian East Africa"/>
-				<connection t1="Anglo-Egyptian Sudan" t2="Sahara"/>
-				<connection t1="Anglo-Egyptian Sudan" t2="sea zone 34"/>
-				<connection t1="Angola" t2="Belgian Congo"/>
-				<connection t1="Angola" t2="Rhodesia"/>
-				<connection t1="Angola" t2="Union of South Africa"/>
-				<connection t1="Angola" t2="sea zone 27"/>
-				<connection t1="Archangel" t2="Karelia SSR"/>
-				<connection t1="Archangel" t2="Nenetsia"/>
-				<connection t1="Archangel" t2="Russia"/>
-				<connection t1="Archangel" t2="Smolensk"/>
-				<connection t1="Archangel" t2="Vologda"/>
-				<connection t1="Archangel" t2="Western Russia"/>
-				<connection t1="Archangel" t2="sea zone 4"/>
-				<connection t1="Argentina" t2="Brazil"/>
-				<connection t1="Argentina" t2="Peru"/>
-				<connection t1="Argentina" t2="sea zone 21"/>
-				<connection t1="Argentina" t2="sea zone 22"/>
-				<connection t1="Argentina" t2="sea zone 25"/>
-				<connection t1="Balkans" t2="Croatia"/>
-				<connection t1="Balkans" t2="Germany"/>
-				<connection t1="Balkans" t2="Greece"/>
-				<connection t1="Balkans" t2="Poland"/>
-				<connection t1="Balkans" t2="Turkey"/>
-				<connection t1="Balkans" t2="Ukraine"/>
-				<connection t1="Balkans" t2="sea zone 16"/>
-				<connection t1="Baltic States" t2="Belarus"/>
-				<connection t1="Baltic States" t2="Karelia SSR"/>
-				<connection t1="Baltic States" t2="Poland"/>
-				<connection t1="Baltic States" t2="sea zone 5"/>
-				<connection t1="Belarus" t2="Karelia SSR"/>
-				<connection t1="Belarus" t2="Poland"/>
-				<connection t1="Belarus" t2="Pripyat Marshes"/>
-				<connection t1="Belarus" t2="Smolensk"/>
-				<connection t1="Belgian Congo" t2="French Equatorial Africa"/>
-				<connection t1="Belgian Congo" t2="Italian East Africa"/>
-				<connection t1="Belgian Congo" t2="Rhodesia"/>
-				<connection t1="Belgian Congo" t2="sea zone 23"/>
-				<connection t1="Borneo" t2="sea zone 48"/>
-				<connection t1="Brazil" t2="Peru"/>
-				<connection t1="Brazil" t2="Venezuala"/>
-				<connection t1="Brazil" t2="sea zone 18"/>
-				<connection t1="Brazil" t2="sea zone 22"/>
-				<connection t1="Buriatia" t2="Evenki National Okrug"/>
-				<connection t1="Buriatia" t2="Manchuria"/>
-				<connection t1="Buriatia" t2="Mongolia"/>
-				<connection t1="Buriatia" t2="Sakha"/>
-				<connection t1="Buriatia" t2="Yajut SSR"/>
-				<connection t1="Buriatia" t2="Yenisey"/>
-				<connection t1="Burma" t2="French Indo-China"/>
-				<connection t1="Burma" t2="Himalayas"/>
-				<connection t1="Burma" t2="India"/>
-				<connection t1="Burma" t2="Yunnan"/>
-				<connection t1="Burma" t2="sea zone 36"/>
-				<connection t1="Caroline Islands" t2="sea zone 50"/>
-				<connection t1="Caucasus" t2="Eastern Ukraine"/>
-				<connection t1="Caucasus" t2="Kazakh SSR"/>
-				<connection t1="Caucasus" t2="Persia"/>
-				<connection t1="Caucasus" t2="Turkey"/>
-				<connection t1="Caucasus" t2="Ukraine"/>
-				<connection t1="Caucasus" t2="Western Russia"/>
-				<connection t1="Caucasus" t2="sea zone 16"/>
-				<connection t1="Central America" t2="Southern USA"/>
-				<connection t1="Central America" t2="sea zone 19"/>
-				<connection t1="Central America" t2="sea zone 20"/>
-				<connection t1="Central America" t2="Venezuala"/>
-				<connection t1="Chinghai" t2="Himalayas"/>
-				<connection t1="Chinghai" t2="Kazakh SSR"/>
-				<connection t1="Chinghai" t2="Shensi"/>
-				<connection t1="Chinghai" t2="Sikang"/>
-				<connection t1="Chinghai" t2="Tibet"/>
-				<connection t1="Chinghai" t2="Tsinghai"/>
-				<connection t1="Crete" t2="sea zone 14"/>
-				<connection t1="Croatia" t2="Germany"/>
-				<connection t1="Croatia" t2="Greece"/>
-				<connection t1="Croatia" t2="Italy"/>
-				<connection t1="Croatia" t2="Switzerland"/>
-				<connection t1="Croatia" t2="sea zone 14"/>
-				<connection t1="Denmark" t2="Germany"/>
-				<connection t1="Denmark" t2="Holland Belgium"/>
-				<connection t1="Denmark" t2="sea zone 5"/>
-				<connection t1="Denmark" t2="sea zone 6"/>
-				<connection t1="East Indies" t2="sea zone 37"/>
-				<connection t1="Eastern Australia" t2="Western Austraia"/>
-				<connection t1="Eastern Australia" t2="sea zone 40"/>
-				<connection t1="Eastern Australia" t2="sea zone 46"/>
-				<connection t1="Eastern Canada" t2="Eastern United States"/>
-				<connection t1="Eastern Canada" t2="Northern USA"/>
-				<connection t1="Eastern Canada" t2="sea zone 1"/>
-				<connection t1="Eastern Canada" t2="sea zone 9"/>
-				<connection t1="Eastern Ukraine" t2="Pripyat Marshes"/>
-				<connection t1="Eastern Ukraine" t2="Smolensk"/>
-				<connection t1="Eastern Ukraine" t2="Ukraine"/>
-				<connection t1="Eastern Ukraine" t2="Western Russia"/>
-				<connection t1="Eastern United States" t2="Northern USA"/>
-				<connection t1="Eastern United States" t2="Southern USA"/>
-				<connection t1="Eastern United States" t2="sea zone 10"/>
-				<connection t1="Egypt" t2="Libya"/>
-				<connection t1="Egypt" t2="Sahara"/>
-				<connection t1="Egypt" t2="sea zone 15"/>
-				<connection t1="Egypt" t2="sea zone 34"/>
-				<connection t1="Egypt" t2="Saudi Arabia"/>
-				<connection t1="Egypt" t2="Trans Jordan"/>
-				<connection t1="Evenki National Okrug" t2="Novosibirsk"/>
-				<connection t1="Evenki National Okrug" t2="Urals"/>
-				<connection t1="Evenki National Okrug" t2="Vologda"/>
-				<connection t1="Evenki National Okrug" t2="Yajut SSR"/>
-				<connection t1="Evenki National Okrug" t2="Yenisey"/>
-				<connection t1="Figi" t2="sea zone 42"/>
-				<connection t1="Finland" t2="Karelia SSR"/>
-				<connection t1="Finland" t2="Norway"/>
-				<connection t1="Finland" t2="Sweden"/>
-				<connection t1="Finland" t2="sea zone 4"/>
-				<connection t1="Finland" t2="sea zone 5"/>
-				<connection t1="Formosa" t2="sea zone 59"/>
-				<connection t1="France" t2="Germany"/>
-				<connection t1="France" t2="Holland Belgium"/>
-				<connection t1="France" t2="Italy"/>
-				<connection t1="France" t2="Spain"/>
-				<connection t1="France" t2="Switzerland"/>
-				<connection t1="France" t2="sea zone 7"/>
-				<connection t1="France" t2="sea zone 13"/>
-				<connection t1="French Equatorial Africa" t2="Gold Coast"/>
-				<connection t1="French Equatorial Africa" t2="Sahara"/>
-				<connection t1="French Equatorial Africa" t2="sea zone 23"/>
-				<connection t1="French Indo-China" t2="Fukien"/>
-				<connection t1="French Indo-China" t2="Yunnan"/>
-				<connection t1="French Indo-China" t2="sea zone 36"/>
-				<connection t1="French Madagascar" t2="sea zone 28"/>
-				<connection t1="French Madagascar" t2="sea zone 29"/>
-				<connection t1="French Madagascar" t2="sea zone 32"/>
-				<connection t1="French Madagascar" t2="sea zone 33"/>
-				<connection t1="French West Africa" t2="Gold Coast"/>
-				<connection t1="French West Africa" t2="Sahara"/>
-				<connection t1="French West Africa" t2="sea zone 17"/>
-				<connection t1="Fukien" t2="Hupeh"/>
-				<connection t1="Fukien" t2="Kwangtung"/>
-				<connection t1="Fukien" t2="Yunnan"/>
-				<connection t1="Fukien" t2="sea zone 59"/>
-				<connection t1="Germany" t2="Holland Belgium"/>
-				<connection t1="Germany" t2="Poland"/>
-				<connection t1="Germany" t2="Switzerland"/>
-				<connection t1="Germany" t2="sea zone 5"/>
-				<connection t1="Gibraltar" t2="Spain"/>
-				<connection t1="Gibraltar" t2="sea zone 12"/>
-				<connection t1="Gibraltar" t2="sea zone 13"/>
-				<connection t1="Gold Coast" t2="Sahara"/>
-				<connection t1="Gold Coast" t2="sea zone 17"/>
-				<connection t1="Gold Coast" t2="sea zone 23"/>
-				<connection t1="Greece" t2="Turkey"/>
-				<connection t1="Greece" t2="sea zone 14"/>
-				<connection t1="Greenland" t2="sea zone 2"/>
-				<connection t1="Hawaiian Islands" t2="sea zone 52"/>
-				<connection t1="Himalayas" t2="India"/>
-				<connection t1="Himalayas" t2="Kazakh SSR"/>
-				<connection t1="Himalayas" t2="Tibet"/>
-				<connection t1="Himalayas" t2="Yunnan"/>
-				<connection t1="Holland Belgium" t2="sea zone 7"/>
-				<connection t1="Hupeh" t2="Kwangtung"/>
-				<connection t1="Hupeh" t2="Shensi"/>
-				<connection t1="Hupeh" t2="Sikang"/>
-				<connection t1="Hupeh" t2="Suiyuan"/>
-				<connection t1="Hupeh" t2="Yunnan"/>
-				<connection t1="Iceland" t2="sea zone 2"/>
-				<connection t1="India" t2="Persia"/>
-				<connection t1="India" t2="sea zone 35"/>
-				<connection t1="Ireland" t2="sea zone 2"/>
-				<connection t1="Ireland" t2="sea zone 8"/>
-				<connection t1="Italian East Africa" t2="Rhodesia"/>
-				<connection t1="Italian East Africa" t2="sea zone 33"/>
-				<connection t1="Italian East Africa" t2="sea zone 34"/>
-				<connection t1="Italy" t2="Southern Italy"/>
-				<connection t1="Italy" t2="Switzerland"/>
-				<connection t1="Italy" t2="sea zone 14"/>
-				<connection t1="Iwo Jima" t2="sea zone 60"/>
-				<connection t1="Japan" t2="sea zone 60"/>
-				<connection t1="Japan" t2="sea zone 61"/>
-				<connection t1="Kansu" t2="Ningxia"/>
-				<connection t1="Kansu" t2="Novosibirsk"/>
-				<connection t1="Kansu" t2="Shensi"/>
-				<connection t1="Kansu" t2="Tambov"/>
-				<connection t1="Kansu" t2="Tsinghai"/>
-				<connection t1="Karelia SSR" t2="Smolensk"/>
-				<connection t1="Karelia SSR" t2="sea zone 4"/>
-				<connection t1="Karelia SSR" t2="sea zone 5"/>
-				<connection t1="Kazakh SSR" t2="Persia"/>
-				<connection t1="Kazakh SSR" t2="Tambov"/>
-				<connection t1="Kazakh SSR" t2="Tsinghai"/>
-				<connection t1="Kazakh SSR" t2="Western Russia"/>
-				<connection t1="Korea" t2="Manchuria"/>
-				<connection t1="Korea" t2="sea zone 61"/>
-				<connection t1="Kwangtung" t2="Manchuria"/>
-				<connection t1="Kwangtung" t2="Suiyuan"/>
-				<connection t1="Kwangtung" t2="sea zone 59"/>
-				<connection t1="Kwangtung" t2="sea zone 61"/>
-				<connection t1="Libya" t2="Sahara"/>
-				<connection t1="Libya" t2="Tunisia"/>
-				<connection t1="Libya" t2="sea zone 14"/>
-				<connection t1="Line Islands" t2="sea zone 53"/>
-				<connection t1="Malta" t2="sea zone 14"/>
-				<connection t1="Manchuria" t2="Mongolia"/>
-				<connection t1="Manchuria" t2="Suiyuan"/>
-				<connection t1="Manchuria" t2="sea zone 61"/>
-				<connection t1="Marshall Islands" t2="sea zone 65"/>
-				<connection t1="Mexico" t2="Western USA"/>
-				<connection t1="Mexico" t2="sea zone 54"/>
-				<connection t1="Midway" t2="sea zone 56"/>
-				<connection t1="Mongolia" t2="Ningxia"/>
-				<connection t1="Mongolia" t2="Suiyuan"/>
-				<connection t1="Mongolia" t2="Yenisey"/>
-				<connection t1="Morocco" t2="Sahara"/>
-				<connection t1="Morocco" t2="sea zone 12"/>
-				<connection t1="Morocco" t2="sea zone 13"/>
-				<connection t1="Mozanbique" t2="Rhodesia"/>
-				<connection t1="Mozanbique" t2="Union of South Africa"/>
-				<connection t1="Mozanbique" t2="sea zone 28"/>
-				<connection t1="Mozanbique" t2="sea zone 33"/>
-				<connection t1="Nenetsia" t2="Urals"/>
-				<connection t1="Nenetsia" t2="Vologda"/>
-				<connection t1="Nenetsia" t2="sea zone 4"/>
-				<connection t1="New Guinea" t2="sea zone 47"/>
-				<connection t1="New Zealand" t2="off map"/>
-				<connection t1="New Zealand" t2="sea zone 41"/>
-				<connection t1="Ningxia" t2="Novosibirsk"/>
-				<connection t1="Ningxia" t2="Shensi"/>
-				<connection t1="Ningxia" t2="Suiyuan"/>
-				<connection t1="Ningxia" t2="Yenisey"/>
-				<connection t1="Northern USA" t2="Southern USA"/>
-				<connection t1="Norway" t2="Sweden"/>
-				<connection t1="Norway" t2="sea zone 3"/>
-				<connection t1="Norway" t2="sea zone 5"/>
-				<connection t1="Norway" t2="sea zone 6"/>
-				<connection t1="Novosibirsk" t2="Tambov"/>
-				<connection t1="Novosibirsk" t2="Vologda"/>
-				<connection t1="Novosibirsk" t2="Yenisey"/>
-				<connection t1="Okinawa" t2="sea zone 58"/>
-				<connection t1="Persia" t2="Trans Jordan"/>
-				<connection t1="Persia" t2="Turkey"/>
-				<connection t1="Persia" t2="sea zone 34"/>
-				<connection t1="Persia" t2="sea zone 35"/>
-				<connection t1="Peru" t2="Venezuala"/>
-				<connection t1="Peru" t2="sea zone 21"/>
-				<connection t1="Phillipines" t2="sea zone 49"/>
-				<connection t1="Poland" t2="Pripyat Marshes"/>
-				<connection t1="Poland" t2="Ukraine"/>
-				<connection t1="Poland" t2="sea zone 5"/>
-				<connection t1="Portugal" t2="Spain"/>
-				<connection t1="Portugal" t2="sea zone 12"/>
-				<connection t1="Pripyat Marshes" t2="Smolensk"/>
-				<connection t1="Pripyat Marshes" t2="Ukraine"/>
-				<connection t1="Rhodesia" t2="Union of South Africa"/>
-				<connection t1="Rhodesia" t2="sea zone 33"/>
-				<connection t1="Russia" t2="Tambov"/>
-				<connection t1="Russia" t2="Vologda"/>
-				<connection t1="Russia" t2="Western Russia"/>
-				<connection t1="Sahara" t2="Tunisia"/>
-				<connection t1="Sahara" t2="sea zone 12"/>
-				<connection t1="Sakha" t2="Siberia"/>
-				<connection t1="Sakha" t2="Yajut SSR"/>
-				<connection t1="Samoa" t2="sea zone 43"/>
-				<connection t1="Sardinia Sicily" t2="sea zone 14"/>
-				<connection t1="Saudi Arabia" t2="Trans Jordan"/>
-				<connection t1="Saudi Arabia" t2="sea zone 34"/>
-				<connection t1="Shensi" t2="Sikang"/>
-				<connection t1="Shensi" t2="Suiyuan"/>
-				<connection t1="Shensi" t2="Tsinghai"/>
-				<connection t1="Siberia" t2="Soviet Far East"/>
-				<connection t1="Siberia" t2="sea zone 62"/>
-				<connection t1="Sikang" t2="Tibet"/>
-				<connection t1="Sikang" t2="Yunnan"/>
-				<connection t1="Smolensk" t2="Western Russia"/>
-				<connection t1="Solomon Islands" t2="sea zone 45"/>
-				<connection t1="Southern Italy" t2="sea zone 14"/>
-				<connection t1="Southern USA" t2="sea zone 10"/>
-				<connection t1="Soviet Far East" t2="sea zone 62"/>
-				<connection t1="Spain" t2="sea zone 12"/>
-				<connection t1="Spain" t2="sea zone 13"/>
-				<connection t1="Sweden" t2="sea zone 5"/>
-				<connection t1="Tambov" t2="Tsinghai"/>
-				<connection t1="Tambov" t2="Vologda"/>
-				<connection t1="Tambov" t2="Western Russia"/>
-				<connection t1="Tibet" t2="Yunnan"/>
-				<connection t1="Trans Jordan" t2="Turkey"/>
-				<connection t1="Trans Jordan" t2="sea zone 15"/>
-				<connection t1="Trans Jordan" t2="sea zone 34"/>
-				<connection t1="Tunisia" t2="sea zone 14"/>
-				<connection t1="Turkey" t2="sea zone 15"/>
-				<connection t1="Turkey" t2="sea zone 16"/>
-				<connection t1="Ukraine" t2="sea zone 16"/>
-				<connection t1="Union of South Africa" t2="sea zone 27"/>
-				<connection t1="Union of South Africa" t2="sea zone 28"/>
-				<connection t1="United Kingdom" t2="sea zone 2"/>
-				<connection t1="United Kingdom" t2="sea zone 3"/>
-				<connection t1="United Kingdom" t2="sea zone 6"/>
-				<connection t1="United Kingdom" t2="sea zone 7"/>
-				<connection t1="United Kingdom" t2="sea zone 8"/>
-				<connection t1="Urals" t2="Vologda"/>
-				<connection t1="Urals" t2="Yajut SSR"/>
-				<connection t1="Venezuala" t2="sea zone 19"/>
-				<connection t1="Venezuala" t2="sea zone 20"/>
-				<connection t1="W. Canada" t2="Western USA"/>
-				<connection t1="W. Canada" t2="sea zone 63"/>
-				<connection t1="W. Canada" t2="sea zone 64"/>
-				<connection t1="Wake Island" t2="sea zone 51"/>
-				<connection t1="West Indies" t2="sea zone 19"/>
-				<connection t1="Western Austraia" t2="sea zone 38"/>
-				<connection t1="Western Austraia" t2="sea zone 39"/>
-				<connection t1="Western Austraia" t2="sea zone 40"/>
-				<connection t1="Western Austraia" t2="sea zone 46"/>
-				<connection t1="Western USA" t2="sea zone 54"/>
-				<connection t1="Western USA" t2="sea zone 55"/>
-				<connection t1="off map" t2="sea zone 25"/>
-				<connection t1="off map" t2="sea zone 26"/>
-				<connection t1="off map" t2="sea zone 27"/>
-				<connection t1="off map" t2="sea zone 28"/>
-				<connection t1="off map" t2="sea zone 29"/>
-				<connection t1="off map" t2="sea zone 30"/>
-				<connection t1="off map" t2="sea zone 39"/>
-				<connection t1="off map" t2="sea zone 40"/>
-				<connection t1="off map" t2="sea zone 41"/>
-				<connection t1="off map" t2="sea zone 42"/>
-				<connection t1="off map" t2="sea zone Germany STF"/>
-				<connection t1="off map" t2="sea zone Italy STF"/>
-				<connection t1="off map" t2="sea zone Japan STF"/>
-				<connection t1="off map" t2="sea zone Russia STF"/>
-				<connection t1="off map" t2="sea zone UK STF"/>
-				<connection t1="off map" t2="sea zone USA STF"/>
-				<connection t1="sea zone 1" t2="sea zone 2"/>
-				<connection t1="sea zone 1" t2="sea zone 8"/>
-				<connection t1="sea zone 1" t2="sea zone 9"/>
-				<connection t1="sea zone 2" t2="sea zone 3"/>
-				<connection t1="sea zone 2" t2="sea zone 8"/>
-				<connection t1="sea zone 3" t2="Finland"/>
-				<connection t1="sea zone 3" t2="sea zone 4"/>
-				<connection t1="sea zone 3" t2="sea zone 6"/>
-				<connection t1="sea zone 5" t2="sea zone 6"/>
-				<connection t1="sea zone 6" t2="sea zone 7"/>
-				<connection t1="sea zone 7" t2="sea zone 8"/>
-				<connection t1="sea zone 7" t2="sea zone 12"/>
-				<connection t1="sea zone 8" t2="sea zone 9"/>
-				<connection t1="sea zone 8" t2="sea zone 12"/>
-				<connection t1="sea zone 9" t2="sea zone 10"/>
-				<connection t1="sea zone 9" t2="sea zone 11"/>
-				<connection t1="sea zone 9" t2="sea zone 12"/>
-				<connection t1="sea zone 10" t2="Central America"/>
-				<connection t1="sea zone 10" t2="sea zone 11"/>
-				<connection t1="sea zone 10" t2="sea zone 19"/>
-				<connection t1="sea zone 11" t2="sea zone 12"/>
-				<connection t1="sea zone 11" t2="sea zone 18"/>
-				<connection t1="sea zone 11" t2="sea zone 19"/>
-				<connection t1="sea zone 12" t2="sea zone 13"/>
-				<connection t1="sea zone 12" t2="sea zone 17"/>
-				<connection t1="sea zone 12" t2="sea zone 18"/>
-				<connection t1="sea zone 13" t2="sea zone 14"/>
-				<connection t1="sea zone 14" t2="sea zone 15"/>
-				<connection t1="sea zone 14" t2="sea zone 16"/>
-				<connection t1="sea zone 15" t2="sea zone 34"/>
-				<connection t1="sea zone 16" t2="sea zone 15"/>
-				<connection t1="sea zone 17" t2="sea zone 18"/>
-				<connection t1="sea zone 17" t2="sea zone 22"/>
-				<connection t1="sea zone 17" t2="sea zone 23"/>
-				<connection t1="sea zone 18" t2="sea zone 19"/>
-				<connection t1="sea zone 18" t2="sea zone 22"/>
-				<connection t1="sea zone 19" t2="sea zone 20"/>
-				<connection t1="sea zone 20" t2="sea zone 21"/>
-				<connection t1="sea zone 21" t2="sea zone 25"/>
-				<connection t1="sea zone 22" t2="sea zone 23"/>
-				<connection t1="sea zone 22" t2="sea zone 24"/>
-				<connection t1="sea zone 22" t2="sea zone 25"/>
-				<connection t1="sea zone 23" t2="sea zone 24"/>
-				<connection t1="sea zone 23" t2="sea zone 27"/>
-				<connection t1="sea zone 24" t2="sea zone 25"/>
-				<connection t1="sea zone 24" t2="sea zone 26"/>
-				<connection t1="sea zone 24" t2="sea zone 27"/>
-				<connection t1="sea zone 25" t2="sea zone 26"/>
-				<connection t1="sea zone 26" t2="sea zone 27"/>
-				<connection t1="sea zone 27" t2="sea zone 28"/>
-				<connection t1="sea zone 28" t2="sea zone 29"/>
-				<connection t1="sea zone 28" t2="sea zone 33"/>
-				<connection t1="sea zone 29" t2="sea zone 30"/>
-				<connection t1="sea zone 29" t2="sea zone 32"/>
-				<connection t1="sea zone 30" t2="sea zone 31"/>
-				<connection t1="sea zone 30" t2="sea zone 32"/>
-				<connection t1="sea zone 30" t2="sea zone 38"/>
-				<connection t1="sea zone 30" t2="sea zone 39"/>
-				<connection t1="sea zone 31" t2="sea zone 32"/>
-				<connection t1="sea zone 31" t2="sea zone 35"/>
-				<connection t1="sea zone 31" t2="sea zone 37"/>
-				<connection t1="sea zone 31" t2="sea zone 38"/>
-				<connection t1="sea zone 32" t2="sea zone 33"/>
-				<connection t1="sea zone 32" t2="sea zone 34"/>
-				<connection t1="sea zone 32" t2="sea zone 35"/>
-				<connection t1="sea zone 33" t2="sea zone 34"/>
-				<connection t1="sea zone 34" t2="sea zone 35"/>
-				<connection t1="sea zone 35" t2="sea zone 36"/>
-				<connection t1="sea zone 35" t2="sea zone 37"/>
-				<connection t1="sea zone 36" t2="sea zone 37"/>
-				<connection t1="sea zone 36" t2="sea zone 48"/>
-				<connection t1="sea zone 36" t2="sea zone 49"/>
-				<connection t1="sea zone 36" t2="sea zone 59"/>
-				<connection t1="sea zone 37" t2="sea zone 38"/>
-				<connection t1="sea zone 37" t2="sea zone 47"/>
-				<connection t1="sea zone 37" t2="sea zone 48"/>
-				<connection t1="sea zone 38" t2="sea zone 39"/>
-				<connection t1="sea zone 38" t2="sea zone 46"/>
-				<connection t1="sea zone 38" t2="sea zone 47"/>
-				<connection t1="sea zone 39" t2="sea zone 40"/>
-				<connection t1="sea zone 40" t2="sea zone 41"/>
-				<connection t1="sea zone 40" t2="sea zone 46"/>
-				<connection t1="sea zone 41" t2="sea zone 42"/>
-				<connection t1="sea zone 41" t2="sea zone 44"/>
-				<connection t1="sea zone 41" t2="sea zone 45"/>
-				<connection t1="sea zone 41" t2="sea zone 46"/>
-				<connection t1="sea zone 42" t2="sea zone 43"/>
-				<connection t1="sea zone 42" t2="sea zone 44"/>
-				<connection t1="sea zone 43" t2="sea zone 44"/>
-				<connection t1="sea zone 43" t2="sea zone 53"/>
-				<connection t1="sea zone 43" t2="sea zone 54"/>
-				<connection t1="sea zone 44" t2="sea zone 45"/>
-				<connection t1="sea zone 44" t2="sea zone 52"/>
-				<connection t1="sea zone 44" t2="sea zone 53"/>
-				<connection t1="sea zone 45" t2="sea zone 46"/>
-				<connection t1="sea zone 45" t2="sea zone 47"/>
-				<connection t1="sea zone 45" t2="sea zone 52"/>
-				<connection t1="sea zone 45" t2="sea zone 65"/>
-				<connection t1="sea zone 46" t2="sea zone 47"/>
-				<connection t1="sea zone 47" t2="sea zone 48"/>
-				<connection t1="sea zone 47" t2="sea zone 50"/>
-				<connection t1="sea zone 47" t2="sea zone 65"/>
-				<connection t1="sea zone 48" t2="sea zone 49"/>
-				<connection t1="sea zone 48" t2="sea zone 50"/>
-				<connection t1="sea zone 49" t2="sea zone 50"/>
-				<connection t1="sea zone 49" t2="sea zone 58"/>
-				<connection t1="sea zone 49" t2="sea zone 59"/>
-				<connection t1="sea zone 49" t2="sea zone 60"/>
-				<connection t1="sea zone 50" t2="sea zone 51"/>
-				<connection t1="sea zone 50" t2="sea zone 58"/>
-				<connection t1="sea zone 50" t2="sea zone 65"/>
-				<connection t1="sea zone 51" t2="sea zone 52"/>
-				<connection t1="sea zone 51" t2="sea zone 57"/>
-				<connection t1="sea zone 51" t2="sea zone 58"/>
-				<connection t1="sea zone 51" t2="sea zone 60"/>
-				<connection t1="sea zone 51" t2="sea zone 65"/>
-				<connection t1="sea zone 52" t2="sea zone 53"/>
-				<connection t1="sea zone 52" t2="sea zone 55"/>
-				<connection t1="sea zone 52" t2="sea zone 56"/>
-				<connection t1="sea zone 52" t2="sea zone 57"/>
-				<connection t1="sea zone 52" t2="sea zone 65"/>
-				<connection t1="sea zone 53" t2="sea zone 54"/>
-				<connection t1="sea zone 53" t2="sea zone 55"/>
-				<connection t1="sea zone 54" t2="sea zone 55"/>
-				<connection t1="sea zone 55" t2="sea zone 56"/>
-				<connection t1="sea zone 55" t2="sea zone 64"/>
-				<connection t1="sea zone 56" t2="sea zone 57"/>
-				<connection t1="sea zone 56" t2="sea zone 63"/>
-				<connection t1="sea zone 56" t2="sea zone 64"/>
-				<connection t1="sea zone 57" t2="sea zone 60"/>
-				<connection t1="sea zone 57" t2="sea zone 62"/>
-				<connection t1="sea zone 57" t2="sea zone 63"/>
-				<connection t1="sea zone 58" t2="sea zone 60"/>
-				<connection t1="sea zone 59" t2="sea zone 60"/>
-				<connection t1="sea zone 59" t2="sea zone 61"/>
-				<connection t1="sea zone 60" t2="sea zone 62"/>
-				<connection t1="sea zone 61" t2="sea zone 60"/>
-				<connection t1="sea zone 62" t2="sea zone 63"/>
-				<connection t1="sea zone 63" t2="sea zone 64"/>				
-		</map>
-</game>
-				
+  <info name="WWIIDK" version="1.0"/>        
+  <loader javaClass="games.strategy.triplea.TripleA"/>		
+  <triplea minimumVersion="1.9"/>
+  <map>
+	<!-- Territory Definitions -->
+	<territory name="Afghanistan"/>
+	<territory name="Alaska"/>
+	<territory name="Aleutians"/>
+	<territory name="Algeria"/>
+	<territory name="Amur"/>
+	<territory name="Anglo-Egyptian Sudan"/>
+	<territory name="Angola"/>
+	<territory name="Archangel"/>
+	<territory name="Argentina"/>
+	<territory name="Balkans"/>
+	<territory name="Baltic States"/>
+	<territory name="Belarus"/>
+	<territory name="Belgian Congo"/>
+	<territory name="Borneo"/>
+	<territory name="Brazil"/>
+	<territory name="Buriatia"/>
+	<territory name="Burma"/>
+	<territory name="Caroline Islands"/>
+	<territory name="Caucasus"/>
+	<territory name="Central America"/>
+	<territory name="Chinghai"/>
+	<territory name="Crete"/>
+	<territory name="Croatia"/>
+	<territory name="Denmark"/>
+	<territory name="East Indies"/>
+	<territory name="Eastern Australia"/>
+	<territory name="Eastern Canada"/>
+	<territory name="Eastern Ukraine"/>
+	<territory name="Eastern United States"/>
+	<territory name="Egypt"/>
+	<territory name="Evenki National Okrug"/>
+	<territory name="Figi"/>
+	<territory name="Finland"/>
+	<territory name="Formosa"/>
+	<territory name="France"/>
+	<territory name="French Equatorial Africa"/>
+	<territory name="French Indo-China"/>
+	<territory name="French Madagascar"/>
+	<territory name="French West Africa"/>
+	<territory name="Fukien"/>
+	<territory name="Germany"/>
+	<territory name="Gibraltar"/>
+	<territory name="Gold Coast"/>
+	<territory name="Greece"/>
+	<territory name="Greenland"/>
+	<territory name="Hawaiian Islands"/>
+	<territory name="Himalayas"/>
+	<territory name="Holland Belgium"/>
+	<territory name="Hupeh"/>
+	<territory name="Iceland"/>
+	<territory name="India"/>
+	<territory name="Ireland"/>
+	<territory name="Italian East Africa"/>
+	<territory name="Italy"/>
+	<territory name="Iwo Jima"/>
+	<territory name="Japan"/>
+	<territory name="Kansu"/>
+	<territory name="Karelia SSR"/>
+	<territory name="Kazakh SSR"/>
+	<territory name="Korea"/>
+	<territory name="Kwangtung"/>
+	<territory name="Libya"/>
+	<territory name="Line Islands"/>
+	<territory name="Malta"/>
+	<territory name="Manchuria"/>
+	<territory name="Marshall Islands"/>
+	<territory name="Mexico"/>
+	<territory name="Midway"/>
+	<territory name="Mongolia"/>
+	<territory name="Morocco"/>
+	<territory name="Mozanbique"/>
+	<territory name="Nenetsia"/>
+	<territory name="New Guinea"/>
+	<territory name="New Zealand"/>
+	<territory name="Ningxia"/>
+	<territory name="Northern USA"/>
+	<territory name="Norway"/>
+	<territory name="Novosibirsk"/>
+	<territory name="Okinawa"/>
+	<territory name="Persia"/>
+	<territory name="Peru"/>
+	<territory name="Phillipines"/>
+	<territory name="Poland"/>
+	<territory name="Portugal"/>
+	<territory name="Pripyat Marshes"/>
+	<territory name="Rhodesia"/>
+	<territory name="Russia"/>
+	<territory name="Sahara"/>
+	<territory name="Sakha"/>
+	<territory name="Samoa"/>
+	<territory name="Sardinia Sicily"/>
+	<territory name="Saudi Arabia"/>
+	<territory name="Shensi"/>
+	<territory name="Siberia"/>
+	<territory name="Sikang"/>
+	<territory name="Smolensk"/>
+	<territory name="Solomon Islands"/>
+	<territory name="Southern Italy"/>
+	<territory name="Southern USA"/>
+	<territory name="Soviet Far East"/>
+	<territory name="Spain"/>
+	<territory name="Suiyuan"/>
+	<territory name="Sweden"/>
+	<territory name="Switzerland"/>
+	<territory name="Tambov"/>
+	<territory name="Tibet"/>
+	<territory name="Trans Jordan"/>
+	<territory name="Tsinghai"/>
+	<territory name="Tunisia"/>
+	<territory name="Turkey"/>
+	<territory name="Ukraine"/>
+	<territory name="Union of South Africa"/>
+	<territory name="United Kingdom"/>
+	<territory name="Urals"/>
+	<territory name="Venezuala"/>
+	<territory name="Vologda"/>
+	<territory name="W. Canada"/>
+	<territory name="Wake Island"/>
+	<territory name="West Indies"/>
+	<territory name="Western Austraia"/>
+	<territory name="Western Russia"/>
+	<territory name="Western USA"/>
+	<territory name="Yajut SSR"/>
+	<territory name="Yenisey"/>
+	<territory name="Yunnan"/>
+	<territory name="off map"/>
+	<territory name="sea zone 1" water="true"/>
+	<territory name="sea zone 2" water="true"/>
+	<territory name="sea zone 3" water="true"/>
+	<territory name="sea zone 4" water="true"/>
+	<territory name="sea zone 5" water="true"/>
+	<territory name="sea zone 6" water="true"/>
+	<territory name="sea zone 7" water="true"/>
+	<territory name="sea zone 8" water="true"/>
+	<territory name="sea zone 9" water="true"/>
+	<territory name="sea zone 10" water="true"/>
+	<territory name="sea zone 11" water="true"/>
+	<territory name="sea zone 12" water="true"/>
+	<territory name="sea zone 13" water="true"/>
+	<territory name="sea zone 14" water="true"/>
+	<territory name="sea zone 15" water="true"/>
+	<territory name="sea zone 16" water="true"/>
+	<territory name="sea zone 17" water="true"/>
+	<territory name="sea zone 18" water="true"/>
+	<territory name="sea zone 19" water="true"/>
+	<territory name="sea zone 20" water="true"/>
+	<territory name="sea zone 21" water="true"/>
+	<territory name="sea zone 22" water="true"/>
+	<territory name="sea zone 23" water="true"/>
+	<territory name="sea zone 24" water="true"/>
+	<territory name="sea zone 25" water="true"/>
+	<territory name="sea zone 26" water="true"/>
+	<territory name="sea zone 27" water="true"/>
+	<territory name="sea zone 28" water="true"/>
+	<territory name="sea zone 29" water="true"/>
+	<territory name="sea zone 30" water="true"/>
+	<territory name="sea zone 31" water="true"/>
+	<territory name="sea zone 32" water="true"/>
+	<territory name="sea zone 33" water="true"/>
+	<territory name="sea zone 34" water="true"/>
+	<territory name="sea zone 35" water="true"/>
+	<territory name="sea zone 36" water="true"/>
+	<territory name="sea zone 37" water="true"/>
+	<territory name="sea zone 38" water="true"/>
+	<territory name="sea zone 39" water="true"/>
+	<territory name="sea zone 40" water="true"/>
+	<territory name="sea zone 41" water="true"/>
+	<territory name="sea zone 42" water="true"/>
+	<territory name="sea zone 43" water="true"/>
+	<territory name="sea zone 44" water="true"/>
+	<territory name="sea zone 45" water="true"/>
+	<territory name="sea zone 46" water="true"/>
+	<territory name="sea zone 47" water="true"/>
+	<territory name="sea zone 48" water="true"/>
+	<territory name="sea zone 49" water="true"/>
+	<territory name="sea zone 50" water="true"/>
+	<territory name="sea zone 51" water="true"/>
+	<territory name="sea zone 52" water="true"/>
+	<territory name="sea zone 53" water="true"/>
+	<territory name="sea zone 54" water="true"/>
+	<territory name="sea zone 55" water="true"/>
+	<territory name="sea zone 56" water="true"/>
+	<territory name="sea zone 57" water="true"/>
+	<territory name="sea zone 58" water="true"/>
+	<territory name="sea zone 59" water="true"/>
+	<territory name="sea zone 60" water="true"/>
+	<territory name="sea zone 61" water="true"/>
+	<territory name="sea zone 62" water="true"/>
+	<territory name="sea zone 63" water="true"/>
+	<territory name="sea zone 64" water="true"/>
+	<territory name="sea zone 65" water="true"/>
+	<territory name="sea zone Germany STF" water="true"/>
+	<territory name="sea zone Italy STF" water="true"/>
+	<territory name="sea zone Japan STF" water="true"/>
+	<territory name="sea zone Russia STF" water="true"/>
+	<territory name="sea zone UK STF" water="true"/>
+	<territory name="sea zone USA STF" water="true"/>
+	<!-- Territory Connections -->
+	<connection t1="Afghanistan" t2="Himalayas"/>
+	<connection t1="Afghanistan" t2="India"/>
+	<connection t1="Afghanistan" t2="Kazakh SSR"/>
+	<connection t1="Afghanistan" t2="Persia"/>
+	<connection t1="Alaska" t2="W. Canada"/>
+	<connection t1="Alaska" t2="sea zone 63"/>
+	<connection t1="Alaska" t2="sea zone 64"/>
+	<connection t1="Aleutians" t2="sea zone 63"/>
+	<connection t1="Algeria" t2="Morocco"/>
+	<connection t1="Algeria" t2="Sahara"/>
+	<connection t1="Algeria" t2="Tunisia"/>
+	<connection t1="Algeria" t2="sea zone 14"/>
+	<connection t1="Amur" t2="Buriatia"/>
+	<connection t1="Amur" t2="Korea"/>
+	<connection t1="Amur" t2="Manchuria"/>
+	<connection t1="Amur" t2="Sakha"/>
+	<connection t1="Amur" t2="Siberia"/>
+	<connection t1="Amur" t2="sea zone 60"/>
+	<connection t1="Amur" t2="sea zone 62"/>
+	<connection t1="Anglo-Egyptian Sudan" t2="Belgian Congo"/>
+	<connection t1="Anglo-Egyptian Sudan" t2="Egypt"/>
+	<connection t1="Anglo-Egyptian Sudan" t2="French Equatorial Africa"/>
+	<connection t1="Anglo-Egyptian Sudan" t2="Italian East Africa"/>
+	<connection t1="Anglo-Egyptian Sudan" t2="Sahara"/>
+	<connection t1="Anglo-Egyptian Sudan" t2="sea zone 34"/>
+	<connection t1="Angola" t2="Belgian Congo"/>
+	<connection t1="Angola" t2="Rhodesia"/>
+	<connection t1="Angola" t2="Union of South Africa"/>
+	<connection t1="Angola" t2="sea zone 27"/>
+	<connection t1="Archangel" t2="Karelia SSR"/>
+	<connection t1="Archangel" t2="Nenetsia"/>
+	<connection t1="Archangel" t2="Russia"/>
+	<connection t1="Archangel" t2="Smolensk"/>
+	<connection t1="Archangel" t2="Vologda"/>
+	<connection t1="Archangel" t2="Western Russia"/>
+	<connection t1="Archangel" t2="sea zone 4"/>
+	<connection t1="Argentina" t2="Brazil"/>
+	<connection t1="Argentina" t2="Peru"/>
+	<connection t1="Argentina" t2="sea zone 21"/>
+	<connection t1="Argentina" t2="sea zone 22"/>
+	<connection t1="Argentina" t2="sea zone 25"/>
+	<connection t1="Balkans" t2="Croatia"/>
+	<connection t1="Balkans" t2="Germany"/>
+	<connection t1="Balkans" t2="Greece"/>
+	<connection t1="Balkans" t2="Poland"/>
+	<connection t1="Balkans" t2="Turkey"/>
+	<connection t1="Balkans" t2="Ukraine"/>
+	<connection t1="Balkans" t2="sea zone 16"/>
+	<connection t1="Baltic States" t2="Belarus"/>
+	<connection t1="Baltic States" t2="Karelia SSR"/>
+	<connection t1="Baltic States" t2="Poland"/>
+	<connection t1="Baltic States" t2="sea zone 5"/>
+	<connection t1="Belarus" t2="Karelia SSR"/>
+	<connection t1="Belarus" t2="Poland"/>
+	<connection t1="Belarus" t2="Pripyat Marshes"/>
+	<connection t1="Belarus" t2="Smolensk"/>
+	<connection t1="Belgian Congo" t2="French Equatorial Africa"/>
+	<connection t1="Belgian Congo" t2="Italian East Africa"/>
+	<connection t1="Belgian Congo" t2="Rhodesia"/>
+	<connection t1="Belgian Congo" t2="sea zone 23"/>
+	<connection t1="Borneo" t2="sea zone 48"/>
+	<connection t1="Brazil" t2="Peru"/>
+	<connection t1="Brazil" t2="Venezuala"/>
+	<connection t1="Brazil" t2="sea zone 18"/>
+	<connection t1="Brazil" t2="sea zone 22"/>
+	<connection t1="Buriatia" t2="Evenki National Okrug"/>
+	<connection t1="Buriatia" t2="Manchuria"/>
+	<connection t1="Buriatia" t2="Mongolia"/>
+	<connection t1="Buriatia" t2="Sakha"/>
+	<connection t1="Buriatia" t2="Yajut SSR"/>
+	<connection t1="Buriatia" t2="Yenisey"/>
+	<connection t1="Burma" t2="French Indo-China"/>
+	<connection t1="Burma" t2="Himalayas"/>
+	<connection t1="Burma" t2="India"/>
+	<connection t1="Burma" t2="Yunnan"/>
+	<connection t1="Burma" t2="sea zone 36"/>
+	<connection t1="Caroline Islands" t2="sea zone 50"/>
+	<connection t1="Caucasus" t2="Eastern Ukraine"/>
+	<connection t1="Caucasus" t2="Kazakh SSR"/>
+	<connection t1="Caucasus" t2="Persia"/>
+	<connection t1="Caucasus" t2="Turkey"/>
+	<connection t1="Caucasus" t2="Ukraine"/>
+	<connection t1="Caucasus" t2="Western Russia"/>
+	<connection t1="Caucasus" t2="sea zone 16"/>
+	<connection t1="Central America" t2="Southern USA"/>
+	<connection t1="Central America" t2="sea zone 19"/>
+	<connection t1="Central America" t2="sea zone 20"/>
+	<connection t1="Central America" t2="Venezuala"/>
+	<connection t1="Chinghai" t2="Himalayas"/>
+	<connection t1="Chinghai" t2="Kazakh SSR"/>
+	<connection t1="Chinghai" t2="Shensi"/>
+	<connection t1="Chinghai" t2="Sikang"/>
+	<connection t1="Chinghai" t2="Tibet"/>
+	<connection t1="Chinghai" t2="Tsinghai"/>
+	<connection t1="Crete" t2="sea zone 14"/>
+	<connection t1="Croatia" t2="Germany"/>
+	<connection t1="Croatia" t2="Greece"/>
+	<connection t1="Croatia" t2="Italy"/>
+	<connection t1="Croatia" t2="Switzerland"/>
+	<connection t1="Croatia" t2="sea zone 14"/>
+	<connection t1="Denmark" t2="Germany"/>
+	<connection t1="Denmark" t2="Holland Belgium"/>
+	<connection t1="Denmark" t2="sea zone 5"/>
+	<connection t1="Denmark" t2="sea zone 6"/>
+	<connection t1="East Indies" t2="sea zone 37"/>
+	<connection t1="Eastern Australia" t2="Western Austraia"/>
+	<connection t1="Eastern Australia" t2="sea zone 40"/>
+	<connection t1="Eastern Australia" t2="sea zone 46"/>
+	<connection t1="Eastern Canada" t2="Eastern United States"/>
+	<connection t1="Eastern Canada" t2="Northern USA"/>
+	<connection t1="Eastern Canada" t2="sea zone 1"/>
+	<connection t1="Eastern Canada" t2="sea zone 9"/>
+	<connection t1="Eastern Ukraine" t2="Pripyat Marshes"/>
+	<connection t1="Eastern Ukraine" t2="Smolensk"/>
+	<connection t1="Eastern Ukraine" t2="Ukraine"/>
+	<connection t1="Eastern Ukraine" t2="Western Russia"/>
+	<connection t1="Eastern United States" t2="Northern USA"/>
+	<connection t1="Eastern United States" t2="Southern USA"/>
+	<connection t1="Eastern United States" t2="sea zone 10"/>
+	<connection t1="Egypt" t2="Libya"/>
+	<connection t1="Egypt" t2="Sahara"/>
+	<connection t1="Egypt" t2="sea zone 15"/>
+	<connection t1="Egypt" t2="sea zone 34"/>
+	<connection t1="Egypt" t2="Saudi Arabia"/>
+	<connection t1="Egypt" t2="Trans Jordan"/>
+	<connection t1="Evenki National Okrug" t2="Novosibirsk"/>
+	<connection t1="Evenki National Okrug" t2="Urals"/>
+	<connection t1="Evenki National Okrug" t2="Vologda"/>
+	<connection t1="Evenki National Okrug" t2="Yajut SSR"/>
+	<connection t1="Evenki National Okrug" t2="Yenisey"/>
+	<connection t1="Figi" t2="sea zone 42"/>
+	<connection t1="Finland" t2="Karelia SSR"/>
+	<connection t1="Finland" t2="Norway"/>
+	<connection t1="Finland" t2="Sweden"/>
+	<connection t1="Finland" t2="sea zone 4"/>
+	<connection t1="Finland" t2="sea zone 5"/>
+	<connection t1="Formosa" t2="sea zone 59"/>
+	<connection t1="France" t2="Germany"/>
+	<connection t1="France" t2="Holland Belgium"/>
+	<connection t1="France" t2="Italy"/>
+	<connection t1="France" t2="Spain"/>
+	<connection t1="France" t2="Switzerland"/>
+	<connection t1="France" t2="sea zone 7"/>
+	<connection t1="France" t2="sea zone 13"/>
+	<connection t1="French Equatorial Africa" t2="Gold Coast"/>
+	<connection t1="French Equatorial Africa" t2="Sahara"/>
+	<connection t1="French Equatorial Africa" t2="sea zone 23"/>
+	<connection t1="French Indo-China" t2="Fukien"/>
+	<connection t1="French Indo-China" t2="Yunnan"/>
+	<connection t1="French Indo-China" t2="sea zone 36"/>
+	<connection t1="French Madagascar" t2="sea zone 28"/>
+	<connection t1="French Madagascar" t2="sea zone 29"/>
+	<connection t1="French Madagascar" t2="sea zone 32"/>
+	<connection t1="French Madagascar" t2="sea zone 33"/>
+	<connection t1="French West Africa" t2="Gold Coast"/>
+	<connection t1="French West Africa" t2="Sahara"/>
+	<connection t1="French West Africa" t2="sea zone 17"/>
+	<connection t1="Fukien" t2="Hupeh"/>
+	<connection t1="Fukien" t2="Kwangtung"/>
+	<connection t1="Fukien" t2="Yunnan"/>
+	<connection t1="Fukien" t2="sea zone 59"/>
+	<connection t1="Germany" t2="Holland Belgium"/>
+	<connection t1="Germany" t2="Poland"/>
+	<connection t1="Germany" t2="Switzerland"/>
+	<connection t1="Germany" t2="sea zone 5"/>
+	<connection t1="Gibraltar" t2="Spain"/>
+	<connection t1="Gibraltar" t2="sea zone 12"/>
+	<connection t1="Gibraltar" t2="sea zone 13"/>
+	<connection t1="Gold Coast" t2="Sahara"/>
+	<connection t1="Gold Coast" t2="sea zone 17"/>
+	<connection t1="Gold Coast" t2="sea zone 23"/>
+	<connection t1="Greece" t2="Turkey"/>
+	<connection t1="Greece" t2="sea zone 14"/>
+	<connection t1="Greenland" t2="sea zone 2"/>
+	<connection t1="Hawaiian Islands" t2="sea zone 52"/>
+	<connection t1="Himalayas" t2="India"/>
+	<connection t1="Himalayas" t2="Kazakh SSR"/>
+	<connection t1="Himalayas" t2="Tibet"/>
+	<connection t1="Himalayas" t2="Yunnan"/>
+	<connection t1="Holland Belgium" t2="sea zone 7"/>
+	<connection t1="Hupeh" t2="Kwangtung"/>
+	<connection t1="Hupeh" t2="Shensi"/>
+	<connection t1="Hupeh" t2="Sikang"/>
+	<connection t1="Hupeh" t2="Suiyuan"/>
+	<connection t1="Hupeh" t2="Yunnan"/>
+	<connection t1="Iceland" t2="sea zone 2"/>
+	<connection t1="India" t2="Persia"/>
+	<connection t1="India" t2="sea zone 35"/>
+	<connection t1="Ireland" t2="sea zone 2"/>
+	<connection t1="Ireland" t2="sea zone 8"/>
+	<connection t1="Italian East Africa" t2="Rhodesia"/>
+	<connection t1="Italian East Africa" t2="sea zone 33"/>
+	<connection t1="Italian East Africa" t2="sea zone 34"/>
+	<connection t1="Italy" t2="Southern Italy"/>
+	<connection t1="Italy" t2="Switzerland"/>
+	<connection t1="Italy" t2="sea zone 14"/>
+	<connection t1="Iwo Jima" t2="sea zone 60"/>
+	<connection t1="Japan" t2="sea zone 60"/>
+	<connection t1="Japan" t2="sea zone 61"/>
+	<connection t1="Kansu" t2="Ningxia"/>
+	<connection t1="Kansu" t2="Novosibirsk"/>
+	<connection t1="Kansu" t2="Shensi"/>
+	<connection t1="Kansu" t2="Tambov"/>
+	<connection t1="Kansu" t2="Tsinghai"/>
+	<connection t1="Karelia SSR" t2="Smolensk"/>
+	<connection t1="Karelia SSR" t2="sea zone 4"/>
+	<connection t1="Karelia SSR" t2="sea zone 5"/>
+	<connection t1="Kazakh SSR" t2="Persia"/>
+	<connection t1="Kazakh SSR" t2="Tambov"/>
+	<connection t1="Kazakh SSR" t2="Tsinghai"/>
+	<connection t1="Kazakh SSR" t2="Western Russia"/>
+	<connection t1="Korea" t2="Manchuria"/>
+	<connection t1="Korea" t2="sea zone 61"/>
+	<connection t1="Kwangtung" t2="Manchuria"/>
+	<connection t1="Kwangtung" t2="Suiyuan"/>
+	<connection t1="Kwangtung" t2="sea zone 59"/>
+	<connection t1="Kwangtung" t2="sea zone 61"/>
+	<connection t1="Libya" t2="Sahara"/>
+	<connection t1="Libya" t2="Tunisia"/>
+	<connection t1="Libya" t2="sea zone 14"/>
+	<connection t1="Line Islands" t2="sea zone 53"/>
+	<connection t1="Malta" t2="sea zone 14"/>
+	<connection t1="Manchuria" t2="Mongolia"/>
+	<connection t1="Manchuria" t2="Suiyuan"/>
+	<connection t1="Manchuria" t2="sea zone 61"/>
+	<connection t1="Marshall Islands" t2="sea zone 65"/>
+	<connection t1="Mexico" t2="Western USA"/>
+	<connection t1="Mexico" t2="sea zone 54"/>
+	<connection t1="Midway" t2="sea zone 56"/>
+	<connection t1="Mongolia" t2="Ningxia"/>
+	<connection t1="Mongolia" t2="Suiyuan"/>
+	<connection t1="Mongolia" t2="Yenisey"/>
+	<connection t1="Morocco" t2="Sahara"/>
+	<connection t1="Morocco" t2="sea zone 12"/>
+	<connection t1="Morocco" t2="sea zone 13"/>
+	<connection t1="Mozanbique" t2="Rhodesia"/>
+	<connection t1="Mozanbique" t2="Union of South Africa"/>
+	<connection t1="Mozanbique" t2="sea zone 28"/>
+	<connection t1="Mozanbique" t2="sea zone 33"/>
+	<connection t1="Nenetsia" t2="Urals"/>
+	<connection t1="Nenetsia" t2="Vologda"/>
+	<connection t1="Nenetsia" t2="sea zone 4"/>
+	<connection t1="New Guinea" t2="sea zone 47"/>
+	<connection t1="New Zealand" t2="off map"/>
+	<connection t1="New Zealand" t2="sea zone 41"/>
+	<connection t1="Ningxia" t2="Novosibirsk"/>
+	<connection t1="Ningxia" t2="Shensi"/>
+	<connection t1="Ningxia" t2="Suiyuan"/>
+	<connection t1="Ningxia" t2="Yenisey"/>
+	<connection t1="Northern USA" t2="Southern USA"/>
+	<connection t1="Norway" t2="Sweden"/>
+	<connection t1="Norway" t2="sea zone 3"/>
+	<connection t1="Norway" t2="sea zone 5"/>
+	<connection t1="Norway" t2="sea zone 6"/>
+	<connection t1="Novosibirsk" t2="Tambov"/>
+	<connection t1="Novosibirsk" t2="Vologda"/>
+	<connection t1="Novosibirsk" t2="Yenisey"/>
+	<connection t1="Okinawa" t2="sea zone 58"/>
+	<connection t1="Persia" t2="Trans Jordan"/>
+	<connection t1="Persia" t2="Turkey"/>
+	<connection t1="Persia" t2="sea zone 34"/>
+	<connection t1="Persia" t2="sea zone 35"/>
+	<connection t1="Peru" t2="Venezuala"/>
+	<connection t1="Peru" t2="sea zone 21"/>
+	<connection t1="Phillipines" t2="sea zone 49"/>
+	<connection t1="Poland" t2="Pripyat Marshes"/>
+	<connection t1="Poland" t2="Ukraine"/>
+	<connection t1="Poland" t2="sea zone 5"/>
+	<connection t1="Portugal" t2="Spain"/>
+	<connection t1="Portugal" t2="sea zone 12"/>
+	<connection t1="Pripyat Marshes" t2="Smolensk"/>
+	<connection t1="Pripyat Marshes" t2="Ukraine"/>
+	<connection t1="Rhodesia" t2="Union of South Africa"/>
+	<connection t1="Rhodesia" t2="sea zone 33"/>
+	<connection t1="Russia" t2="Tambov"/>
+	<connection t1="Russia" t2="Vologda"/>
+	<connection t1="Russia" t2="Western Russia"/>
+	<connection t1="Sahara" t2="Tunisia"/>
+	<connection t1="Sahara" t2="sea zone 12"/>
+	<connection t1="Sakha" t2="Siberia"/>
+	<connection t1="Sakha" t2="Yajut SSR"/>
+	<connection t1="Samoa" t2="sea zone 43"/>
+	<connection t1="Sardinia Sicily" t2="sea zone 14"/>
+	<connection t1="Saudi Arabia" t2="Trans Jordan"/>
+	<connection t1="Saudi Arabia" t2="sea zone 34"/>
+	<connection t1="Shensi" t2="Sikang"/>
+	<connection t1="Shensi" t2="Suiyuan"/>
+	<connection t1="Shensi" t2="Tsinghai"/>
+	<connection t1="Siberia" t2="Soviet Far East"/>
+	<connection t1="Siberia" t2="sea zone 62"/>
+	<connection t1="Sikang" t2="Tibet"/>
+	<connection t1="Sikang" t2="Yunnan"/>
+	<connection t1="Smolensk" t2="Western Russia"/>
+	<connection t1="Solomon Islands" t2="sea zone 45"/>
+	<connection t1="Southern Italy" t2="sea zone 14"/>
+	<connection t1="Southern USA" t2="sea zone 10"/>
+	<connection t1="Soviet Far East" t2="sea zone 62"/>
+	<connection t1="Spain" t2="sea zone 12"/>
+	<connection t1="Spain" t2="sea zone 13"/>
+	<connection t1="Sweden" t2="sea zone 5"/>
+	<connection t1="Tambov" t2="Tsinghai"/>
+	<connection t1="Tambov" t2="Vologda"/>
+	<connection t1="Tambov" t2="Western Russia"/>
+	<connection t1="Tibet" t2="Yunnan"/>
+	<connection t1="Trans Jordan" t2="Turkey"/>
+	<connection t1="Trans Jordan" t2="sea zone 15"/>
+	<connection t1="Trans Jordan" t2="sea zone 34"/>
+	<connection t1="Tunisia" t2="sea zone 14"/>
+	<connection t1="Turkey" t2="sea zone 15"/>
+	<connection t1="Turkey" t2="sea zone 16"/>
+	<connection t1="Ukraine" t2="sea zone 16"/>
+	<connection t1="Union of South Africa" t2="sea zone 27"/>
+	<connection t1="Union of South Africa" t2="sea zone 28"/>
+	<connection t1="United Kingdom" t2="sea zone 2"/>
+	<connection t1="United Kingdom" t2="sea zone 3"/>
+	<connection t1="United Kingdom" t2="sea zone 6"/>
+	<connection t1="United Kingdom" t2="sea zone 7"/>
+	<connection t1="United Kingdom" t2="sea zone 8"/>
+	<connection t1="Urals" t2="Vologda"/>
+	<connection t1="Urals" t2="Yajut SSR"/>
+	<connection t1="Venezuala" t2="sea zone 19"/>
+	<connection t1="Venezuala" t2="sea zone 20"/>
+	<connection t1="W. Canada" t2="Western USA"/>
+	<connection t1="W. Canada" t2="sea zone 63"/>
+	<connection t1="W. Canada" t2="sea zone 64"/>
+	<connection t1="Wake Island" t2="sea zone 51"/>
+	<connection t1="West Indies" t2="sea zone 19"/>
+	<connection t1="Western Austraia" t2="sea zone 38"/>
+	<connection t1="Western Austraia" t2="sea zone 39"/>
+	<connection t1="Western Austraia" t2="sea zone 40"/>
+	<connection t1="Western Austraia" t2="sea zone 46"/>
+	<connection t1="Western USA" t2="sea zone 54"/>
+	<connection t1="Western USA" t2="sea zone 55"/>
+	<connection t1="off map" t2="sea zone 25"/>
+	<connection t1="off map" t2="sea zone 26"/>
+	<connection t1="off map" t2="sea zone 27"/>
+	<connection t1="off map" t2="sea zone 28"/>
+	<connection t1="off map" t2="sea zone 29"/>
+	<connection t1="off map" t2="sea zone 30"/>
+	<connection t1="off map" t2="sea zone 39"/>
+	<connection t1="off map" t2="sea zone 40"/>
+	<connection t1="off map" t2="sea zone 41"/>
+	<connection t1="off map" t2="sea zone 42"/>
+	<connection t1="off map" t2="sea zone Germany STF"/>
+	<connection t1="off map" t2="sea zone Italy STF"/>
+	<connection t1="off map" t2="sea zone Japan STF"/>
+	<connection t1="off map" t2="sea zone Russia STF"/>
+	<connection t1="off map" t2="sea zone UK STF"/>
+	<connection t1="off map" t2="sea zone USA STF"/>
+	<connection t1="sea zone 1" t2="sea zone 2"/>
+	<connection t1="sea zone 1" t2="sea zone 8"/>
+	<connection t1="sea zone 1" t2="sea zone 9"/>
+	<connection t1="sea zone 2" t2="sea zone 3"/>
+	<connection t1="sea zone 2" t2="sea zone 8"/>
+	<connection t1="sea zone 3" t2="Finland"/>
+	<connection t1="sea zone 3" t2="sea zone 4"/>
+	<connection t1="sea zone 3" t2="sea zone 6"/>
+	<connection t1="sea zone 5" t2="sea zone 6"/>
+	<connection t1="sea zone 6" t2="sea zone 7"/>
+	<connection t1="sea zone 7" t2="sea zone 8"/>
+	<connection t1="sea zone 7" t2="sea zone 12"/>
+	<connection t1="sea zone 8" t2="sea zone 9"/>
+	<connection t1="sea zone 8" t2="sea zone 12"/>
+	<connection t1="sea zone 9" t2="sea zone 10"/>
+	<connection t1="sea zone 9" t2="sea zone 11"/>
+	<connection t1="sea zone 9" t2="sea zone 12"/>
+	<connection t1="sea zone 10" t2="Central America"/>
+	<connection t1="sea zone 10" t2="sea zone 11"/>
+	<connection t1="sea zone 10" t2="sea zone 19"/>
+	<connection t1="sea zone 11" t2="sea zone 12"/>
+	<connection t1="sea zone 11" t2="sea zone 18"/>
+	<connection t1="sea zone 11" t2="sea zone 19"/>
+	<connection t1="sea zone 12" t2="sea zone 13"/>
+	<connection t1="sea zone 12" t2="sea zone 17"/>
+	<connection t1="sea zone 12" t2="sea zone 18"/>
+	<connection t1="sea zone 13" t2="sea zone 14"/>
+	<connection t1="sea zone 14" t2="sea zone 15"/>
+	<connection t1="sea zone 14" t2="sea zone 16"/>
+	<connection t1="sea zone 15" t2="sea zone 34"/>
+	<connection t1="sea zone 16" t2="sea zone 15"/>
+	<connection t1="sea zone 17" t2="sea zone 18"/>
+	<connection t1="sea zone 17" t2="sea zone 22"/>
+	<connection t1="sea zone 17" t2="sea zone 23"/>
+	<connection t1="sea zone 18" t2="sea zone 19"/>
+	<connection t1="sea zone 18" t2="sea zone 22"/>
+	<connection t1="sea zone 19" t2="sea zone 20"/>
+	<connection t1="sea zone 20" t2="sea zone 21"/>
+	<connection t1="sea zone 21" t2="sea zone 25"/>
+	<connection t1="sea zone 22" t2="sea zone 23"/>
+	<connection t1="sea zone 22" t2="sea zone 24"/>
+	<connection t1="sea zone 22" t2="sea zone 25"/>
+	<connection t1="sea zone 23" t2="sea zone 24"/>
+	<connection t1="sea zone 23" t2="sea zone 27"/>
+	<connection t1="sea zone 24" t2="sea zone 25"/>
+	<connection t1="sea zone 24" t2="sea zone 26"/>
+	<connection t1="sea zone 24" t2="sea zone 27"/>
+	<connection t1="sea zone 25" t2="sea zone 26"/>
+	<connection t1="sea zone 26" t2="sea zone 27"/>
+	<connection t1="sea zone 27" t2="sea zone 28"/>
+	<connection t1="sea zone 28" t2="sea zone 29"/>
+	<connection t1="sea zone 28" t2="sea zone 33"/>
+	<connection t1="sea zone 29" t2="sea zone 30"/>
+	<connection t1="sea zone 29" t2="sea zone 32"/>
+	<connection t1="sea zone 30" t2="sea zone 31"/>
+	<connection t1="sea zone 30" t2="sea zone 32"/>
+	<connection t1="sea zone 30" t2="sea zone 38"/>
+	<connection t1="sea zone 30" t2="sea zone 39"/>
+	<connection t1="sea zone 31" t2="sea zone 32"/>
+	<connection t1="sea zone 31" t2="sea zone 35"/>
+	<connection t1="sea zone 31" t2="sea zone 37"/>
+	<connection t1="sea zone 31" t2="sea zone 38"/>
+	<connection t1="sea zone 32" t2="sea zone 33"/>
+	<connection t1="sea zone 32" t2="sea zone 34"/>
+	<connection t1="sea zone 32" t2="sea zone 35"/>
+	<connection t1="sea zone 33" t2="sea zone 34"/>
+	<connection t1="sea zone 34" t2="sea zone 35"/>
+	<connection t1="sea zone 35" t2="sea zone 36"/>
+	<connection t1="sea zone 35" t2="sea zone 37"/>
+	<connection t1="sea zone 36" t2="sea zone 37"/>
+	<connection t1="sea zone 36" t2="sea zone 48"/>
+	<connection t1="sea zone 36" t2="sea zone 49"/>
+	<connection t1="sea zone 36" t2="sea zone 59"/>
+	<connection t1="sea zone 37" t2="sea zone 38"/>
+	<connection t1="sea zone 37" t2="sea zone 47"/>
+	<connection t1="sea zone 37" t2="sea zone 48"/>
+	<connection t1="sea zone 38" t2="sea zone 39"/>
+	<connection t1="sea zone 38" t2="sea zone 46"/>
+	<connection t1="sea zone 38" t2="sea zone 47"/>
+	<connection t1="sea zone 39" t2="sea zone 40"/>
+	<connection t1="sea zone 40" t2="sea zone 41"/>
+	<connection t1="sea zone 40" t2="sea zone 46"/>
+	<connection t1="sea zone 41" t2="sea zone 42"/>
+	<connection t1="sea zone 41" t2="sea zone 44"/>
+	<connection t1="sea zone 41" t2="sea zone 45"/>
+	<connection t1="sea zone 41" t2="sea zone 46"/>
+	<connection t1="sea zone 42" t2="sea zone 43"/>
+	<connection t1="sea zone 42" t2="sea zone 44"/>
+	<connection t1="sea zone 43" t2="sea zone 44"/>
+	<connection t1="sea zone 43" t2="sea zone 53"/>
+	<connection t1="sea zone 43" t2="sea zone 54"/>
+	<connection t1="sea zone 44" t2="sea zone 45"/>
+	<connection t1="sea zone 44" t2="sea zone 52"/>
+	<connection t1="sea zone 44" t2="sea zone 53"/>
+	<connection t1="sea zone 45" t2="sea zone 46"/>
+	<connection t1="sea zone 45" t2="sea zone 47"/>
+	<connection t1="sea zone 45" t2="sea zone 52"/>
+	<connection t1="sea zone 45" t2="sea zone 65"/>
+	<connection t1="sea zone 46" t2="sea zone 47"/>
+	<connection t1="sea zone 47" t2="sea zone 48"/>
+	<connection t1="sea zone 47" t2="sea zone 50"/>
+	<connection t1="sea zone 47" t2="sea zone 65"/>
+	<connection t1="sea zone 48" t2="sea zone 49"/>
+	<connection t1="sea zone 48" t2="sea zone 50"/>
+	<connection t1="sea zone 49" t2="sea zone 50"/>
+	<connection t1="sea zone 49" t2="sea zone 58"/>
+	<connection t1="sea zone 49" t2="sea zone 59"/>
+	<connection t1="sea zone 49" t2="sea zone 60"/>
+	<connection t1="sea zone 50" t2="sea zone 51"/>
+	<connection t1="sea zone 50" t2="sea zone 58"/>
+	<connection t1="sea zone 50" t2="sea zone 65"/>
+	<connection t1="sea zone 51" t2="sea zone 52"/>
+	<connection t1="sea zone 51" t2="sea zone 57"/>
+	<connection t1="sea zone 51" t2="sea zone 58"/>
+	<connection t1="sea zone 51" t2="sea zone 60"/>
+	<connection t1="sea zone 51" t2="sea zone 65"/>
+	<connection t1="sea zone 52" t2="sea zone 53"/>
+	<connection t1="sea zone 52" t2="sea zone 55"/>
+	<connection t1="sea zone 52" t2="sea zone 56"/>
+	<connection t1="sea zone 52" t2="sea zone 57"/>
+	<connection t1="sea zone 52" t2="sea zone 65"/>
+	<connection t1="sea zone 53" t2="sea zone 54"/>
+	<connection t1="sea zone 53" t2="sea zone 55"/>
+	<connection t1="sea zone 54" t2="sea zone 55"/>
+	<connection t1="sea zone 55" t2="sea zone 56"/>
+	<connection t1="sea zone 55" t2="sea zone 64"/>
+	<connection t1="sea zone 56" t2="sea zone 57"/>
+	<connection t1="sea zone 56" t2="sea zone 63"/>
+	<connection t1="sea zone 56" t2="sea zone 64"/>
+	<connection t1="sea zone 57" t2="sea zone 60"/>
+	<connection t1="sea zone 57" t2="sea zone 62"/>
+	<connection t1="sea zone 57" t2="sea zone 63"/>
+	<connection t1="sea zone 58" t2="sea zone 60"/>
+	<connection t1="sea zone 59" t2="sea zone 60"/>
+	<connection t1="sea zone 59" t2="sea zone 61"/>
+	<connection t1="sea zone 60" t2="sea zone 62"/>
+	<connection t1="sea zone 61" t2="sea zone 60"/>
+	<connection t1="sea zone 62" t2="sea zone 63"/>
+	<connection t1="sea zone 63" t2="sea zone 64"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+    <resource name="techTokens"/>    
+  </resourceList>
+  <playerList>
+    <player name="Germans" optional="false" canBeDisabled="false"/>
+    <player name="British" optional="false" canBeDisabled="false"/>
+    <player name="Italians" optional="false" canBeDisabled="false"/>
+    <player name="Russians" optional="false" canBeDisabled="false"/>
+    <player name="Japanese" optional="false" canBeDisabled="false"/>
+    <player name="Americans" optional="false" canBeDisabled="false"/>
+    <player name="Chinese" optional="false" canBeDisabled="false"/>
+    <!-- optional just means 'does this player require a capital?'.  if optional is false, they require at least 1 capital.  if optional is true, they may have no capitals. -->
+    <!-- canBeDisabled if true means that the player will skip all of their phases. their delegates will be removed from the game (so triggers will not happen during those delegates either) -->
+    <!-- Alliances can have any name, not just axis and allies.  There can be more than 2 alliances -->
+    <!-- Since triplea version 1.3.3.0 it is preferred to use relationships instead of or in addition to alliances. If relationships are set, then alliances will only matter for the stats panel and any game option type victory conditions -->
+    <!-- Axis alliance -->
+    <alliance player="Germans" alliance="Axis"/>
+    <alliance player="Italians" alliance="Axis"/>
+    <alliance player="Japanese" alliance="Axis"/>
+    <!-- Allies alliance -->
+    <alliance player="British" alliance="Allies"/>
+    <alliance player="Russians" alliance="Allies"/>
+    <alliance player="Americans" alliance="Allies"/>
+    <alliance player="Chinese" alliance="Allies"/>
+  </playerList>
